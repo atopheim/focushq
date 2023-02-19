@@ -42,6 +42,9 @@ body {
 }
 
 .bottom-center{
+  display: flex;
+  margin: auto;
+  justify-content: center;
   position: fixed;
   bottom: 10px;
   left: 50%;

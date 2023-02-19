@@ -1,5 +1,6 @@
 import { useContext, useEffect } from 'react'
 import KofiButton from "kofi-button"
+import { SocialIcon } from 'react-social-icons';
 import { Priciniples } from '@/components/Pricinples'
 import { Projects } from '@/components/Projects'
 import { Timer } from '@/components/Timer'
@@ -34,10 +35,14 @@ function App() {
         <Timer activeProjectId={activeProject.id!} />
         <Priciniples />
       </div>
-      <div className="bottom-center">
+      <div style={{ padding: "1rem" }} />
+      <div style={{ borderRadius: "50px", background: "white", transform: "translate(-150px)" }} className="bottom-center">
+        <SocialIcon url="https://github.com/atopheim/focushq" />
+      </div>
+      <div style={{ borderRadius: "8px", transform: "translate(10px,-5px)" }} className="bottom-center">
         <KofiButton color="#0a9396" title="Donate" kofiID="torbjornopheim" />
       </div>
-    </div>
+    </div >
   )
 }
 

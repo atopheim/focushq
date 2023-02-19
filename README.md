@@ -29,7 +29,7 @@ So now I'll be putting in a few weekends again, but with a different starting po
 - [ ] Option to choose sounds
 - [ ] Allow to notify even when tab not in focus
 - [ ] New modal for creating a new project
-- [ ] Option to delete projects
+- [ ] Possibility to delete projects
 
 ### Built With
 
