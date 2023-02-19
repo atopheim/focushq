@@ -1,5 +1,5 @@
 import { useContext, useEffect } from 'react'
-
+import KofiButton from "kofi-button"
 import { Priciniples } from '@/components/Pricinples'
 import { Projects } from '@/components/Projects'
 import { Timer } from '@/components/Timer'
@@ -33,6 +33,9 @@ function App() {
         </div>
         <Timer activeProjectId={activeProject.id!} />
         <Priciniples />
+      </div>
+      <div className="bottom-center">
+        <KofiButton color="#0a9396" title="Donate" kofiID="torbjornopheim" />
       </div>
     </div>
   )

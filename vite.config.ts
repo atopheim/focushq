@@ -10,22 +10,17 @@ export default defineConfig({
     tsconfigPaths(),
     VitePWA({
       registerType: "autoUpdate",
-      includeAssets: ["icon.png", "apple-touch-icon.png", "masked-icon.svg"],
+      includeAssets: ["favicon.ico"],
       manifest: {
-        name: "PomoDo",
-        short_name: "PomoDo",
-        description: "ToDo + Pomodoro + Marketing/Coding Weeks",
+        name: "FocusHQ",
+        short_name: "FocusHQ",
+        description: "Todo lists, Pomodoro Technique and Project Management tool",
         theme_color: "#000000",
         icons: [
           {
-            src: "icon-192.png",
-            sizes: "192x192",
-            type: "image/png",
-          },
-          {
-            src: "icon-512.png",
-            sizes: "512x512",
-            type: "image/png",
+            "src": "favicon.ico",
+            "sizes": "64x64 32x32 24x24 16x16",
+            "type": "image/x-icon"
           },
         ],
       },

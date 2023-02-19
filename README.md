@@ -1,28 +1,35 @@
 <p align="center">
-  <h1 align="center">PomoDo</h1>
+  <h1 align="center">Focus HQ</h1>
 
   <p align="center">
-    Pomodoro Timer for Solopreneurs & Indiehackers
+    Suite of tools for anyone who wants to stay more structured and get more done!
   </p>
 
 <p align="center">
-  <img width="937" alt="PomoDo" src="./screenshot.png">
+  <img width="937" alt="FocusHQ" src="./screenshot.png">
   </p>
 </p>
 
 <br/>
 
-## About PomoDo
+## About FocusHQ
+First of all - a great thanks to github user <b>maltesa</b> who I forked the [repo](https://github.com/maltesa/PomoDo) from. I definitely saved a lot of hours by continuing on his work instead of doing it from scratch.
 
-I've been following the Marketing Week / Coding Week philosophy for the past six months and have seen great user growth in my app [WorkSheet](https://worksheet.digital/) as a result of this split of my time. Combined with the popular Pomodoro method, I have found the perfect productivity method for me. Now I want to help others make these methods easily accessible.
+The backstory is that I started on a Pomodoro & ToDo-list app and launched it in december of 2021. It was a bit buggy and I was very new to react, redux and typescript in general so I stopped using it, but it was a great learning experience.
+So now I'll be putting in a few weekends again, but with a different starting point.
 
-For this I have combined the two approaches in the webapp PomoDo.
 
 ### Features
 
 - Pomodoro Timer
 - Codingweek / Marketingweek Reminder
 - Todolist
+
+### Todo List
+- [ ] Option to choose sounds
+- [ ] Allow to notify even when tab not in focus
+- [ ] New modal for creating a new project
+- [ ] Option to delete projects
 
 ### Built With
 
@@ -36,13 +43,14 @@ For this I have combined the two approaches in the webapp PomoDo.
 
 To get the project running locally on your machine you need to have the following development tools installed:
 
-- Node.JS (we recommend v16)
+- Node.JS (we recommend v16) 
+  - Install by using `nvm install 16.0.0`
 - Yarn
 
 1. Clone the project:
 
 ```
-git clone git@github.com:maltesa/PomoDo.git && cd PomoDo
+git clone git@github.com:atopheim/focushq.git && cd focushq
 ```
 
 2. Install Node.JS packages via yarn. Don't have yarn? Use `npm install --global yarn`.
