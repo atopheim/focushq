@@ -13,7 +13,7 @@
 <br/>
 
 ## About FocusHQ
-First of all - a great thanks to github user <b>maltesa</b> who I forked the [repo](https://github.com/maltesa/PomoDo) from. I definitely saved a lot of hours by continuing on his work instead of doing it from scratch.
+First of all - a great thanks to github user <b>maltesa</b> who I forked the repo from. I definitely saved a lot of hours by continuing on his work instead of doing it from scratch.
 
 The backstory is that I started on a Pomodoro & ToDo-list app and launched it in december of 2021. It was a bit buggy and I was very new to react, redux and typescript in general so I stopped using it, but it was a great learning experience.
 So now I'll be putting in a few weekends again, but with a different starting point.
@@ -30,6 +30,7 @@ So now I'll be putting in a few weekends again, but with a different starting po
 - [ ] Allow to notify even when tab not in focus
 - [ ] New modal for creating a new project
 - [ ] Possibility to delete projects
+- [ ] Maintain state between sessions (accidental exits etc.)
 
 ### Built With
 
