@@ -2,6 +2,8 @@ import { Outlet } from 'react-router-dom'
 
 import { ProjectNavigation } from './_components/ProjectNavigation'
 import { SettingsButton } from './_components/Settings'
+import { SocialIcon } from 'react-social-icons'
+import KofiButton from 'kofi-button'
 
 export function Layout() {
   return (
@@ -13,6 +15,13 @@ export function Layout() {
         <ProjectNavigation />
       </div>
       <Outlet />
+      <div style={{ padding: "1rem" }} />
+      <div style={{ borderRadius: "50px", background: "white", transform: "translate(-150px)" }} className="bottom-center">
+        <SocialIcon url="https://github.com/atopheim/focushq" />
+      </div>
+      <div style={{ borderRadius: "8px", transform: "translate(10px,-5px)" }} className="bottom-center">
+        <KofiButton color="#0a9396" title="Donate" kofiID="torbjornopheim" />
+      </div>
     </main>
   )
 }
